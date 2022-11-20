@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+.table{
+    width: 100%;
+    max-width: 960px;
+    border: 1px solid #c2c2d1;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.table thead tr{
+    color: #fff;
+    background-color: #24456d;
+    border-bottom: 1px solid #c2c2d1;
+}
+
+.table tbody tr{
+    color: #000;
+    background-color: #e8e8e8;
+    border-bottom: 1px solid #c2c2d1;
+}
+
+.table tbody tr:hover{
+    color: #000;
+    background-color: #c0c1c2;
+    border: none;
+}
+
+.table thead th{
+    border-left: 1px solid #c2c2d1;
+    padding: 15px 0;
+}
+
+.table tbody td{
+    border-left: 1px solid #c2c2d1;
+    padding: 15px 0;
+}
+
+#number{
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+
+#name{
+    text-align: left;
+    padding: 0 0 0 20px;
+}
+
+#numbers{
+    text-align: center;
+}
