@@ -15,14 +15,16 @@ body{
 
 .table thead tr{
     color: #fff;
-    background-color: #24456d;
+    background-color: #2a3644;
     border-bottom: 1px solid #c0c1c2;
+    font-family: "Arial";
 }
 
 .table tbody tr{
     color: #000;
-    background-color: #e8e8e8;
+    background-color: #f2f2f2;
     border-bottom: 1px solid #c0c1c2;
+    font-family: "Arial";
 }
 
 .table tbody tr:hover{
@@ -31,13 +33,24 @@ body{
     border: none;
 }
 
+#dxd{
+    color: #000;
+    background-color: #e8e8e8;  
+}
+
+#dxd:hover{
+    color: #000;
+    background-color: #c0c1c2;
+    border: none;
+}
+
 .table thead th{
-    border-left: 1px solid #c0c1c2;
+    border: 1px solid #c0c1c2;
     padding: 15px 0;
 }
 
 .table tbody td{
-    border-left: 1px solid #c0c1c2;
+    border: 1px solid #c0c1c2;
     padding: 15px 0;
     font-size: 16px;
 }
