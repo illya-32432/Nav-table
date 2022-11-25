@@ -368,6 +368,15 @@ a.inst {
     border-bottom: 1px solid #c0c1c2;
 }
 
+.yaruk{
+    border: none;
+}
+
+#hello 
+{
+    border: none;
+}
+
 .tr>.td:first-child {
     width: 58px;
     text-align: center;
