@@ -54,6 +54,7 @@ a {
 .menu li,
 .menu-bottom li {
     padding: 14px 32px;
+    cursor: pointer;
 }
 
 .menu a,
