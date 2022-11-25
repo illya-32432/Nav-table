@@ -227,7 +227,7 @@ a.inst {
 #name{
     text-align: left;
     padding: 0 0 0 20px;
-    width: 416px;
+    width: 515px;
 }
 
 #numbers{
@@ -349,7 +349,7 @@ a.inst {
 .name {
     text-align: left;
     padding: 1px 0 0 23px;
-    width: 340px;
+    width: 540px;
 }
 
 .tr:nth-child(2n) {
