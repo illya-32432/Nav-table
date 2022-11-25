@@ -227,6 +227,7 @@ a.inst {
 #name{
     text-align: left;
     padding: 0 0 0 20px;
+    width: 416px;
 }
 
 #numbers{
@@ -347,6 +348,7 @@ a.inst {
 .name {
     text-align: left;
     padding-left: 23px;
+    width: 340px;
 }
 
 .tr:nth-child(2n) {
@@ -369,12 +371,12 @@ a.inst {
 }
 
 .yaruk{
-    border: none;
+    border-bottom: none;
 }
 
 #hello 
 {
-    border: none;
+    border-bottom: none;
 }
 
 .tr>.td:first-child {
