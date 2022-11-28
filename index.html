@@ -1,216 +1,245 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навігаційні таблиці Дяді Гріши</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Table</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <section>
-                <h1 class="zag">1. Навігація</h1>
-                <div class="havka">
-                    <nav class="top-bar">
-                        <ul class="menu niger flex">
-                            <li>
-                                <a href="#">Ковбаса</a>
-                            </li>
-                            <li>
-                                <a href="#">Салатік</a>
-                            </li>
-                            <li>
-                                <a href="#">Крабові палочки</a>
-                            </li>
-                            <li>
-                                <a href="#">Молоко</a>
-                            </li>
-                        </ul>
-                    </nav>
+    <div class="wrapper-negra">
+        <section>
+            <h1>1. Навігація</h1>
+            <div class="kyrka">
+                <nav class="top-bar">
+                    <ul class="menu food flex">
+                        <li class="open" id="left_li">
+                            <a class="menu_a" href="#">Ковбаса</a>
+                            <ul class="sub_menu sub_first">
+                                <li class="sub_li first_li"><a href="#">Ліверна</a></li>
+                                <li class="sub_li"><a href="#">Домашні ковбаси</a></li>
+                                <li class="sub_li"><a href="#">Мисливська</a></li>
+                                <li class="sub_li last_li"><a href="#">Салямі</a></li>
+                            </ul>
+                        </li>
+                        <li class="open">
+                            <a class="menu_a" href="#">Салатік</a>
+                            <ul class="sub_menu">
+                                <li class="sub_li first_li"><a href="#">Олів'є</a></li>
+                                <li class="sub_li"><a href="#">Мімоза</a></li>
+                                <li class="sub_li" id="sub_li3"><a href="#">Грецький з горіхами</a></li>
+                                <li class="sub_li last_li"><a href="#">Фруктовий</a></li>
+                            </ul>
+                        </li>
+                        <li class="open">
+                            <a class="menu_a" href="#">Крабові палочки</a>
+                            <ul class="sub_menu">
+                                <li class="sub_li first_li"><a href="#">Водяний світ</a></li>
+                                <li class="sub_li"><a href="#">На вагу</a></li>
+                                <li class="sub_li"><a href="#">Скажений краб</a></li>
+                                <li class="sub_li last_li"><a href="#">Крабстер</a></li>
+                            </ul>
+                        </li>
+                        <li class="open">
+                            <a class="menu_a" href="#">Молоко</a>
+                            <ul class="sub_menu sub_last">
+                                <li class="sub_li first_li"><a href="#">Корівка</a></li>
+                                <li class="sub_li"><a href="#">Селянське</a></li>
+                                <li class="sub_li"><a href="#">Віньковецьке</a></li>
+                                <li class="sub_li last_li"><a href="#">Парне 99%</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="middle">
+                <nav class="top-bar">
+                    <ul class="menu flex different">
+                        <li id="left_li">
+                            <a class="menu_a" href="#">Ноутбук</a>
+                        </li>
+                        <li>
+                            <a class="menu_a" href="#">Телефон</a>
+                        </li>
+                        <li>
+                            <a class="menu_a" href="#">Холодильник</a>
+                        </li>
+                        <li>
+                            <a class="menu_a" href="#">Товари для дорослих та дітей</a>
+                        </li>
+                        <li>
+                            <a class="menu_a" href="#">Різне</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bottom">
+                <nav class="top-bar flex">
+                    <ul class="menu left-menu">
+                        <li>
+                            <a class="main-page" href="#">Головна</a>
+                        </li>
+                        <li>
+                            <a class="menu_a" href="#">Про село</a>
+                        </li>
+                        <li>
+                            <a class="menu_a" href="#">Наші послуги</a>
+                        </li>
+                        <li>
+                            <a class="menu_a" href="#">Краєвид околиці</a>
+                        </li>
+                    </ul>
+                    <ul class="menu-bottom social">
+                        <li>
+                            <a class="fb" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="tw" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="inst" href="#"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </div>
+    <main>
+        <div class="wrapper-negra">
+            <h1>2. Таблиця</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th rowspan="2">№</th>
+                        <th rowspan="2" class="th2">Ім’я</th>
+                        <th colspan="3">Результати</th>
+                    </tr>
+                    <tr>
+                        <th>2016</th>
+                        <th>2017</th>
+                        <th>2018</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="tr1">
+                        <td class="numbers">1.</td>
+                        <td class="name">Джон Федор</td>
+                        <td class="number">55,2</td>
+                        <td class="number">71,4</td>
+                        <td class="number">33,7</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td class="numbers">2.</td>
+                        <td class="name">Выль’ям Шекспір</td>
+                        <td class="number">55,2</td>
+                        <td class="number">71,4</td>
+                        <td class="number">33,7</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td class="numbers">3.</td>
+                        <td class="name">Джон Федор</td>
+                        <td class="number">55,2</td>
+                        <td class="number">71,4</td>
+                        <td class="number">33,7</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td class="numbers">4.</td>
+                        <td class="name">Джон Федор</td>
+                        <td class="number">55,2</td>
+                        <td class="number">71,4</td>
+                        <td class="number">33,7</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td class="numbers">5.</td>
+                        <td class="name">Джон Федор</td>
+                        <td class="number">55,2</td>
+                        <td class="number">71,4</td>
+                        <td class="number">33,7</td>
+                    </tr>
+                    <tr class="tr2">
+                        <td class="numbers">6.</td>
+                        <td class="name">Джон Федор</td>
+                        <td class="number">55,2</td>
+                        <td class="number">71,4</td>
+                        <td class="number">33,7</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td class="numbers">7.</td>
+                        <td class="name">Джон Федор</td>
+                        <td class="number">55,2</td>
+                        <td class="number">71,4</td>
+                        <td class="number">33,7</td>
+                    </tr>
+                    <tr class="cat1">
+                        <td class="numbers">8.</td>
+                        <td class="name">Джон Федор</td>
+                        <td class="number">55,2</td>
+                        <td class="number">71,4</td>
+                        <td class="number">33,7</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+            </wrapper>
+
+            <div class="wrapper-negra">
+                <h1>3. Таблиця стилями</h1>
+                <div class="table2">
+                    <div class="table_head">
+                        <div class="head">№</div>
+                        <div class="head">Назва товару</div>
+                        <div class="head">CPU</div>
+                        <div class="head">SSD</div>
+                        <div class="head">GPU</div>
+                    </div>
+                    <div class="table_style">
+                        <div class="css-tr tr1">1.</div>
+                        <div class="css-tr tr1">Настільний iMac</div>
+                        <div class="css-tr tr1">i-7</div>
+                        <div class="css-tr tr1">256</div>
+                        <div class="css-tr tr1">16</div>
+                    </div>
+                    <div class="table_style">
+                        <div class="css-tr tr2">2.</div>
+                        <div class="css-tr tr2">Ноутбук MacBook Pro 2015</div>
+                        <div class="css-tr tr2">i-7</div>
+                        <div class="css-tr tr2">256</div>
+                        <div class="css-tr tr2">16</div>
+                    </div>
+                    <div class="table_style">
+                        <div class="css-tr tr1">3.</div>
+                        <div class="css-tr tr1">Смартфон Samsung</div>
+                        <div class="css-tr tr1">i-7</div>
+                        <div class="css-tr tr1">256</div>
+                        <div class="css-tr tr1">16</div>
+                    </div>
+                    <div class="table_style">
+                        <div class="css-tr tr2">4.</div>
+                        <div class="css-tr tr2">Телевізор Philips</div>
+                        <div class="css-tr tr2">i-7</div>
+                        <div class="css-tr tr2">256</div>
+                        <div class="css-tr tr2">16</div>
+                    </div>
+                    <div class="table_style">
+                        <div class="css-tr tr_last">5.</div>
+                        <div class="css-tr tr_last">Годинник Asahi</div>
+                        <div class="css-tr tr_last">i-7</div>
+                        <div class="css-tr tr_last">256</div>
+                        <div class="css-tr tr_last">16</div>
+                    </div>
                 </div>
-                <div class="texnika">
-                    <nav class="top-bar">
-                        <ul class="menu flex market">
-                            <li>
-                                <a href="#">Ноутбук</a>
-                            </li>
-                            <li>
-                                <a href="#">Телефон</a>
-                            </li>
-                            <li>
-                                <a href="#">Холодильник</a>
-                            </li>
-                            <li>
-                                <a href="#">Товари для дорослих та дітей</a>
-                            </li>
-                            <li>
-                                <a href="#">Різне</a>
-                            </li>
-                        </ul>
-                    </nav>     
-                </div>
-                <div class="main">
-                    <nav class="top-bar flex">
-                        <ul class="menu top-menu">
-                            <li>
-                                <a class="home-page" href="#">Головна</a>
-                            </li>
-                            <li>
-                                <a href="#">Про село</a>
-                            </li>
-                            <li>
-                                <a href="#">Наші послуги</a>
-                            </li>
-                            <li>
-                                <a href="#">Краєвид околиці</a>
-                            </li>
-                        </ul>
-                        <ul class="menu-bottom social">
-                            <li>
-                                <a class="fb" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="tw" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="inst" href="#"></a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </section>
+            </div>
+
+
             <br>
-            <section>
-                <h2  class="zag">2. Таблиця</h2>
-                <br>
+            <br>
+            <br>
+    </main>
 
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th rowspan="2">№</th>
-                            <th id="iii" rowspan="2">Ім’я</th>   
-                            <th colspan="3">Результати</th>
-                        </tr>
-                        <tr>
-                            <th>2016</th>
-                            <th>2017</th>
-                            <th>2018</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="numbers">1.</td>
-                            <td class="name">Джон Федор</td>
-                            <td class="number">55,2</td>
-                            <td class="number">71,4</td>
-                            <td class="number">33,7</td>
-                        </tr>
-                        <tr class="dxd">
-                            <td class="numbers">2.</td>
-                            <td class="name">Выль’ям Шекспір</td>
-                            <td class="number">55,2</td>
-                            <td class="number">71,4</td>
-                            <td class="number">33,7</td>
-                        </tr>
-                        <tr>
-                            <td class="numbers">3.</td>
-                            <td class="name">Джон Федор</td>
-                            <td class="number">55,2</td>
-                            <td class="number">71,4</td>
-                            <td class="number">33,7</td>
-                        </tr>
-                        <tr class="dxd">
-                            <td class="numbers">4.</td>
-                            <td class="name">Джон Федор</td>
-                            <td class="number">55,2</td>
-                            <td class="number">71,4</td>
-                            <td class="number">33,7</td>
-                        </tr>
-                        <tr>
-                            <td class="numbers">5.</td>
-                            <td class="name">Джон Федор</td>
-                            <td class="number">55,2</td>
-                            <td class="number">71,4</td>
-                            <td class="number">33,7</td>
-                        </tr>
-                        <tr class="dxd">
-                            <td class="numbers">6.</td>
-                            <td class="name">Джон Федор</td>
-                            <td class="number">55,2</td>
-                            <td class="number">71,4</td>
-                            <td class="number">33,7</td>
-                        </tr>
-                        <tr>
-                            <td class="numbers">7.</td>
-                            <td class="name">Джон Федор</td>
-                            <td class="number">55,2</td>
-                            <td class="number">71,4</td>
-                            <td class="number">33,7</td>
-                        </tr>
-                        <tr class="dxd">
-                            <td class="numbers">8.</td>
-                            <td class="name">Джон Федор</td>
-                            <td class="number">55,2</td>
-                            <td class="number">71,4</td>
-                            <td class="number">33,7</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
-                <br>
-                <h3  class="zag">3. Таблиця стилями</h3>
-                <br>
-                <div class="table3">
-                    <div class="thead">
-                        <div class="th">№</div>
-                        <div class="th name">Назва товару</div>
-                        <div class="th width">CPU</div>
-                        <div class="th width">SSD</div>
-                        <div class="th width">GPU</div>
-                    </div>
-                    <div class="tr">
-                        <div class="td">1.</div>
-                        <div class="td name">Настільний iMac</div>
-                        <div class="td">i-7</div>
-                        <div class="td">256</div>
-                        <div class="td">16</div>
-                    </div>
-                    <div class="tr">
-                        <div class="td">2.</div>
-                        <div class="td name">Ноутбук MacBook Pro 2015</div>
-                        <div class="td">i-7</div>
-                        <div class="td">256</div>
-                        <div class="td">16</div>
-                    </div>
-                    <div class="tr">
-                        <div class="td">3.</div>
-                        <div class="td name">Смартфон Samsung</div>
-                        <div class="td">i-7</div>
-                        <div class="td">256</div>
-                        <div class="td">16</div>
-                    </div>
-                    <div class="tr">
-                        <div class="td">4.</div>
-                        <div class="td name">Телевізор Philips</div>
-                        <div class="td">i-7</div>
-                        <div class="td">256</div>
-                        <div class="td">16</div>
-                    </div>
-                    <div class="tr">
-                        <div class="td yaruk">5.</div>
-                        <div class="td name yaruk">Годинник Asahi</div>
-                        <div class="td yaruk">i-7</div>
-                        <div class="td yaruk">256</div>
-                        <div id="hello" class="td">16</div>
-                    </div>
-                </div>
-            </section>
-        </div>          
-    </header>
-    <br>
-    <br>
-    <br>
 </body>
+
 </html>
