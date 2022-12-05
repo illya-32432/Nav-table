@@ -59,7 +59,7 @@ ul.flex:first-child>li:first-child>a:first-child::before {
    position: absolute;
    width: auto;
    height: 13px;
-   background: url(../css/img/sprites.png) no-repeat;
+   background: url(../img/sprites.png) no-repeat;
    background-position: -54px -23px;
    left: 0px;
    top: 11px;
@@ -94,7 +94,7 @@ ul.flex:first-child>li:first-child:hover>a:first-child::before {
 .tw,
 .inst {
    display: block;
-   background: url(../css/img/sprites.png) no-repeat;
+   background: url(../img/sprites.png) no-repeat;
    transition: 0.5s;
 }
 
@@ -722,7 +722,7 @@ th {
 }
 
 .table_style div:nth-child(2) {
-   width: 420px;
+   width: 640px;
 }
 
 .table_style div:first-child {
